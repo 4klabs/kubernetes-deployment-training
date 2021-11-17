@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app
+  labels:
+    name: app
+spec:
+  containers:
+    - name: app
+      image: mateus4k/helloworld
+      resources:
+        limits:
+          cpu: 50m
+          memory: 128Mi
+      ports:
+        - containerPort: 3000
