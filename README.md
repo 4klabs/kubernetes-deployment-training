@@ -1,6 +1,10 @@
-# Kubernetes 101
+# Kubernetes Training
 
-![K8s](https://fabiosilvabuzina.files.wordpress.com/2019/01/kubernetes-horizontal-color.png)
+> An Introduction to Kubernetes Deployments, Services, and Ingress
+
+## Overview
+
+![Overview](https://matthewpalmer.net/kubernetes-app-developer/articles/nodeport.png)
 
 ## Build and push image
 
@@ -15,7 +19,7 @@ docker push <user>/helloworld
 k3d cluster create my_cluster
 ```
 
-## Create pod
+## Apply manifests
 
 ```sh
 kubectl apply -f k8s
